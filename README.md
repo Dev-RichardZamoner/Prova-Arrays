@@ -1,6 +1,11 @@
 # Prova-Arrays
+# Professor Túlio 
+# Faculdade Moura Lacerda - Riberão Preto
 
-[Avaliação Regimental N1 (1).pdf](https://github.com/Dev-RichardZamoner/Prova-Arrays/files/12674075/Avaliacao.Regimental.N1.1.pdf)
+
+![image](https://github.com/Dev-RichardZamoner/Prova-Arrays/assets/130820445/b865bee6-e51f-4393-a4f4-b25b063e659c)
+![image](https://github.com/Dev-RichardZamoner/Prova-Arrays/assets/130820445/7fc64840-0638-49d3-8b55-d0b21c2cb195)
+
 
 
 ❖ Criar uma classe Vetor completa com os seguintes métodos:
@@ -29,8 +34,10 @@ opção inválida.
 ❖ A atividade deverá possuir 2 classes: Array e ArrayTeste. 
 
 ❖ A classe Array deverá ter os atributos e métodos.
+
 ❖ A classe ArrayTeste deverá instanciar um objeto do tipo Array e 
 realizar a interação com o usuário (exibir o menu, atender a opção 
 escolhida, etc.).
+
 ❖ Deverá instanciar um objeto da classe Scanner para obter as 
 informações do usuário.
