@@ -1,20 +1,42 @@
-import java.util.Scanner;
+public class Array {
+    private int[] vetor;
+    private int tamanho;
 
-public class ArrayTeste {
-    public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner(System.in);
+    public Array(int capacidade) {
+        vetor = new int[capacidade];
+        tamanho = 0;
+    }
 
-        
-        System.out.print("Digite um valor: ");
+    public void adicionarElemento(int elemento) {
+        if (tamanho < vetor.length) {
+            vetor[tamanho] = elemento;
+            tamanho++;
+        } else {
+            System.out.println("O Array está cheio. Não é possível adicionar mais elementos.");
+        }
+    }
 
-        
-        int valor = scanner.nextInt();
+    public void removerElemento() {
+        if (tamanho > 0) {
+            tamanho--;
+        } else {
+            System.out.println("O Array está vazio. Não é possível remover elementos.");
+        }
+    }
 
-        
-        System.out.println("Você digitou: " + valor);
+    public void alterarElemento(int posicao, int novoElemento) {
+        if (posicao >= 0 && posicao < tamanho) {
+            vetor[posicao] = novoElemento;
+        } else {
+            System.out.println("Posição inválida.");
+        }
+    }
 
-        
-        scanner.close();
+    public void listarElementos() {
+        System.out.print("Elementos do Array: ");
+        for (int i = 0; i < tamanho; i++) {
+            System.out.print(vetor[i] + " ");
+        }
+        System.out.println();
     }
 }
